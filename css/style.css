@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+.site-header{
+    height: 670px;
+    width: 100%;
+    background-image: url(/img/banner.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barra{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 750px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.navegacion a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.texto-header{
+    align-items: center;
+    margin-top: 185px;
+}
+
+h1.no-margin{
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+    margin: 0;
+}
+.custom-span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+h2.no-margin{
+    color: white;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    margin: 0;
+}
+header p.no-margin{
+    color: white;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    padding-top: 80px;
+    margin: 0;
+}
+
+
+
+
+.contenido-principal{
+    display: flex;
+    align-items: flex-start; 
+}
+.contendido-1{
+    flex: 1;
+    margin-left: 250px;
+}
+.blog{
+    width: 70%;
+    float: left;
+
+}
+.cursos{
+    width: 30%;
+    float: left;
+
+}
+
+
+
+
+main h2{
+    padding: 50px 0px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3.5em;
+}
+
+.imagen img{
+    width: 100%;
+    height: auto;
+}
+
+h3.no-margin{
+    color: black;
+    padding: 15px 0px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0;
+}
+main p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+
+.btn{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    border: none;
+    padding: 10px 25px;
+    border: solid 2px;
+    border-radius: 5px;
+}
+.btn-primario{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: black;
+    color: white;
+}
+.btn-secundario{
+    border-top-left-radius:  20px;
+    border-bottom-right-radius:  20px;
+    background-color: #784D3C;
+    color: white;
+}
+
+aside h2{
+    padding: 50px 0px;
+    padding-left: 50px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+ul{
+    list-style: none;
+    padding-left: 50px;
+}
+li h4.no-margin{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+}
+
+li p.no-margin{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 2em;
+    color: black;
+    padding: 20px;
+}
+
+.site-footer{
+    margin-top: 120px;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+p.no-margin{
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+    margin: 0;
+    padding-left: 200px;
+}
+.custom-span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
