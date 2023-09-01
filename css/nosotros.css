@@ -8,7 +8,8 @@ body {
     flex-direction: column;
     min-height: 100vh; 
 }
-/*HEADER*/
+
+/* HEADER */
 .site-header{
     height: 670px;
     width: 100%;
@@ -59,6 +60,7 @@ h1.no-margin{
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
+
 h2.no-margin{
     color: white;
     text-align: center;
@@ -74,108 +76,43 @@ header p.no-margin{
     font-weight: normal;
     font-size: 20px;
     padding-top: 80px;
-    
     margin: 0;
 }
-
-
-
 /*BODY*/
-
-.contenido-principal{
-    display: flex;
-    align-items: flex-start; 
-}
-
-.contendido-1{
-    flex: 1;
-    margin-left: 250px;
-}
-.blog{
-    width: 70%;
-    float: left;
-}
-.cursos{
-    width: 30%;
-    float: left;
-}
-
-main h2{
-    padding: 50px 0px;
-    font-family: 'PT Sans', sans-serif;
-    font-weight: bold;
-    font-size: 3.5em;
-}
-
-.imagen img{
-    width: 100%;
-    height: auto;
-}
-
-h3.no-margin{
-    color: black;
-    padding: 15px 0px;
-    font-family: 'PT Sans', sans-serif;
-    font-weight: bold;
-    font-size: 2em;
-    margin: 0;
-}
-main p{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 1.5;
-    padding-bottom: 30px;
-}
-
-.btn{
-    font-family: 'PT Sans', sans-serif;
-    font-weight: bold;
-    font-size: 2em;
-    border: none;
-    padding: 10px 25px;
-    border: solid 2px;
-    border-radius: 5px;
-}
-.btn-primario{
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    background-color: black;
-    color: white;
-}
-.btn-secundario{
-    border-top-left-radius:  20px;
-    border-bottom-right-radius:  20px;
-    background-color: #784D3C;
-    color: white;
-}
-
-aside h2{
-    padding: 50px 0px;
-    padding-left: 50px;
+.contenido-nosotros{
+    text-align: center;
+    padding-top: 30px;
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
     font-size: 2.5em;
+    margin: 0;
 }
-ul{
-    list-style: none;
-    padding-left: 50px;
-}
-li h4.no-margin{
-    font-family: 'PT Sans', sans-serif;
-    font-weight: bold;
-    font-size: 2em;
-    color: black;
+.contenido-principal{
+    display: flex;
+    align-items: center;
+    gap: 50px;
 }
 
-li p.no-margin{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-    font-size: 2em;
-    color: black;
-    padding: 20px;
+.descripcion img{
+    width: 100%;
+    height: auto;
 }
-/*FOOTER*/
+.espacio{
+    width: 10%;
+    height: auto;
+}
+.descripcion{
+    padding-top: 30px;
+    width: 40%;
+    height: auto;
+}
+.descripcion p{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+}
+/* FOOTER */
+
 .site-footer{
     margin-top: 120px;
     width: 100%;
